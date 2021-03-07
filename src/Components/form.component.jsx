@@ -1,9 +1,11 @@
 import React from "react";
 import "./form.style.css"
-
+import weatherman from "../Assets/weatherman.gif"
 const Form = props => {
   return (
     <div className="container h-100">
+        <img src = {weatherman}>
+        </img>
       <form onSubmit={props.loadweather}>
         <div>{props.error ? error() : ""}</div>
         <div className="row">
