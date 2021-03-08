@@ -1,7 +1,11 @@
 form {
     margin-top: 3rem;
   }
-  
+  .container{
+    max-width: 960px;
+    background:cornsilk;
+    opacity: 0.6;
+  }
   form input[name="city"],
   form input[name="country"] {
     background-color: transparent;
